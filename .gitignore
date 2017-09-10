@@ -1,0 +1,69 @@
+# ###### ###### ###### #
+# Visual Studio        #
+# ###### ###### ###### #
+.vs
+*.VC.*db
+*.sln
+*.suo
+
+
+# ###### ###### ###### #
+# CLion                #
+# ###### ###### ###### #
+.idea/
+cmake-build-debug/
+
+
+# ###### ###### ###### #
+# C / C++              #
+# ###### ###### ###### #
+*.slo
+*.lo
+*.o
+*.obj
+*.gch
+*.pch
+*.so
+*.dylib
+*.dll
+
+*.lai
+*.la
+*.a
+*.lib
+
+*.exe
+*.out
+*.app
+*.ipa
+
+
+# ###### ###### ###### #
+# Fortran              #
+# ###### ###### ###### #
+*.mod
+
+
+# ###### ###### ###### #
+# Unreal Engine        #
+# ###### ###### ###### #
+# Not Ignored
+!Build/*/PakBlacklist*.txt
+!Build/**/*.ico
+
+Binaries
+Build
+Saved
+Intermediate
+DerivedDataCache
+Content/StarterContent
+
+SourceArt/**/*.png
+SourceArt/**/*.tga
+
+*.xcodeproj
+*.xcworkspace
+
+*.opensdf
+*.sdf
+*_BuiltData.uasset
