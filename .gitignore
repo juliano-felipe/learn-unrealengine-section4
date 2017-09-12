@@ -48,18 +48,18 @@ cmake-build-debug/
 # Unreal Engine        #
 # ###### ###### ###### #
 # Not Ignored
-!Build/*/PakBlacklist*.txt
-!Build/**/*.ico
+!**/Build/*/PakBlacklist*.txt
+!**/Build/**/*.ico
 
-Binaries
-Build
-Saved
-Intermediate
-DerivedDataCache
-Content/StarterContent
+**/Binaries
+**/Build
+**/Saved
+**/Intermediate
+**/DerivedDataCache
+**/Content/StarterContent
 
-SourceArt/**/*.png
-SourceArt/**/*.tga
+**/SourceArt/**/*.png
+**/SourceArt/**/*.tga
 
 *.xcodeproj
 *.xcworkspace
