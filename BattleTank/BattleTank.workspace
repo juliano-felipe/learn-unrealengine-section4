@@ -2231,6 +2231,7 @@
     <Include Path="C:\Program Files\Epic Games\UE_4.17\Engine\Source\ThirdParty\hlslcc\hlslcc\src\hlslcc_lib" />
     <Include Path="C:\Program Files\Epic Games\UE_4.17\Engine\Source" />
     <Include Path="E:\workspace\learn\unrealenginecourse\Section_04\BattleTank\Source" />
+    <Include Path="E:\workspace\learn\unrealenginecourse\Section_04\BattleTank\Source\BattleTank\Public" />
     <Include Path="E:\workspace\learn\unrealenginecourse\Section_04\BattleTank\Intermediate\Build\Win64\UE4Editor\Inc\BattleTank" />
     <Include Path="E:\workspace\learn\unrealenginecourse\Section_04\BattleTank\Source\BattleTank" />
     <Include Path="C:\Program Files\Epic Games\UE_4.17\Engine\Source\Runtime\Core\Public" />

@@ -2228,6 +2228,7 @@ C:\Program Files\Epic Games\UE_4.17\Engine\Plugins\Runtime\Nvidia\Ansel\ThirdPar
 C:\Program Files\Epic Games\UE_4.17\Engine\Source\ThirdParty\hlslcc\hlslcc\src\hlslcc_lib
 C:\Program Files\Epic Games\UE_4.17\Engine\Source
 E:\workspace\learn\unrealenginecourse\Section_04\BattleTank\Source
+E:\workspace\learn\unrealenginecourse\Section_04\BattleTank\Source\BattleTank\Public
 E:\workspace\learn\unrealenginecourse\Section_04\BattleTank\Intermediate\Build\Win64\UE4Editor\Inc\BattleTank
 E:\workspace\learn\unrealenginecourse\Section_04\BattleTank\Source\BattleTank
 C:\Program Files\Epic Games\UE_4.17\Engine\Source\Runtime\Core\Public
