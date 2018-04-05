@@ -1,0 +1,23 @@
+﻿  CMakeCXXCompilerId.cpp
+  feature_tests.cxx
+  BattleTank.init.gen.cpp
+e:\workspace\learn\unrealenginecourse\section_04\battletank\intermediate\build\win64\ue4editor\inc\battletank\battletank.init.gen.cpp(7): fatal error C1083: Cannot open include file: 'GeneratedCppIncludes.h': No such file or directory
+  BattleTankGameModeBase.gen.cpp
+e:\workspace\learn\unrealenginecourse\section_04\battletank\intermediate\build\win64\ue4editor\inc\battletank\battletankgamemodebase.gen.cpp(7): fatal error C1083: Cannot open include file: 'GeneratedCppIncludes.h': No such file or directory
+  Tank.gen.cpp
+e:\workspace\learn\unrealenginecourse\section_04\battletank\intermediate\build\win64\ue4editor\inc\battletank\tank.gen.cpp(7): fatal error C1083: Cannot open include file: 'GeneratedCppIncludes.h': No such file or directory
+  TankAIController.gen.cpp
+e:\workspace\learn\unrealenginecourse\section_04\battletank\intermediate\build\win64\ue4editor\inc\battletank\tankaicontroller.gen.cpp(7): fatal error C1083: Cannot open include file: 'GeneratedCppIncludes.h': No such file or directory
+  TankPlayerController.gen.cpp
+e:\workspace\learn\unrealenginecourse\section_04\battletank\intermediate\build\win64\ue4editor\inc\battletank\tankplayercontroller.gen.cpp(7): fatal error C1083: Cannot open include file: 'GeneratedCppIncludes.h': No such file or directory
+  BattleTank.cpp
+e:\workspace\learn\unrealenginecourse\section_04\battletank\source\battletank\battletank.h(5): fatal error C1083: Cannot open include file: 'CoreMinimal.h': No such file or directory
+  BattleTankGameModeBase.cpp
+e:\workspace\learn\unrealenginecourse\section_04\battletank\source\battletank\battletankgamemodebase.h(5): fatal error C1083: Cannot open include file: 'CoreMinimal.h': No such file or directory
+  Tank.cpp
+e:\workspace\learn\unrealenginecourse\section_04\battletank\source\battletank\private\tank.cpp(3): fatal error C1083: Cannot open include file: 'Tank.h': No such file or directory
+  TankAIController.cpp
+e:\workspace\learn\unrealenginecourse\section_04\battletank\source\battletank\private\tankaicontroller.cpp(3): fatal error C1083: Cannot open include file: 'TankAIController.h': No such file or directory
+  TankPlayerController.cpp
+e:\workspace\learn\unrealenginecourse\section_04\battletank\source\battletank\public\tankplayercontroller.h(5): fatal error C1083: Cannot open include file: 'CoreMinimal.h': No such file or directory
+  Generating Code...
