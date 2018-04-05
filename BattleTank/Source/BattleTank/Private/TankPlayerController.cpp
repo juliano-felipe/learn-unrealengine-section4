@@ -4,18 +4,37 @@
 #include "../BattleTank.h"
 
 
-void ATankPlayerController::BeginPlay() {
+void ATankPlayerController::BeginPlay()
+{
     Super::BeginPlay();
     auto ControllerTank = GetControlledTank();
-    if (!ControllerTank) {
+    if (!ControllerTank) 
+	{
         UE_LOG(LogTemp, Warning, TEXT("Player Controller not possessing a Tank."));
-    } else {
+    } 
+	else 
+	{
         UE_LOG(LogTemp, Warning, TEXT("Player Controller possessing %s"), *(ControllerTank->GetName()));
     }
 }
 
-ATank *ATankPlayerController::GetControlledTank() const {
+
+void ATankPlayerController::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+	AimAtCrosshair();
+}
+
+
+ATank *ATankPlayerController::GetControlledTank() const 
+{
     return Cast<ATank>(GetPawn());
+}
+
+
+void ATankPlayerController::AimAtCrosshair()
+{
+	if (!GetControlledTank) { return; }
 }
 
 
