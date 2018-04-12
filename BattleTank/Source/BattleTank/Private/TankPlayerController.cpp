@@ -7,14 +7,14 @@
 void ATankPlayerController::BeginPlay()
 {
     Super::BeginPlay();
-    auto ControllerTank = GetControlledTank();
-    if (!ControllerTank) 
+    auto ControlledTank = GetControlledTank();
+    if (!ControlledTank) 
 	{
         UE_LOG(LogTemp, Warning, TEXT("Player Controller not possessing a Tank."));
     } 
 	else 
 	{
-        UE_LOG(LogTemp, Warning, TEXT("Player Controller possessing %s"), *(ControllerTank->GetName()));
+        UE_LOG(LogTemp, Warning, TEXT("Player Controller possessing %s"), *(ControlledTank->GetName()));
     }
 }
 
@@ -38,7 +38,7 @@ void ATankPlayerController::AimAtCrosshair()
 	FVector HitLocation; // out parameter
 	if (GetSightRayHitLocation(HitLocation))
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Hit Direction: %s"), *HitLocation.ToString());
+		GetControlledTank()->AimAt(HitLocation);
 	}
 }
 
@@ -56,7 +56,6 @@ bool ATankPlayerController::GetSightRayHitLocation(FVector& OutHitLocation) cons
 		// Line-trace along that LookDirection , and see what we hit (up to a max range)
 		GetLookVectorHitLocation(LookDirection, OutHitLocation);
 	}
-
 	return true;
 }
 
